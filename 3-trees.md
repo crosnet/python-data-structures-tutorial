@@ -52,5 +52,53 @@ This tree is not a balanced BST and will there give a performance of O(n) when u
 - Child Node: A node that is directly connected from the parent node
 - Leaf Node: A node that does not have any child nodes
 
-## Example Code: Insert a value in the BST
+## Example Code: Insert a value in the Binary Tree
+```python
+class BinarySearchTree:
+    def __init__(self, data):
+        self.left = None
+        self.right = None
+        self.data = data
 
+    def insert(self, data):
+        #before we insert a value, we compare it to the parent node
+        # which in this case is the root node.
+        if self.data:
+            if data < self.data:
+                if self.left is None:
+                    self.left = BinarySearchTree(data)
+                else:
+                    self.left.insert(data)
+            elif data > self.data:
+                if self.right is None:
+                    self.right = BinarySearchTree(data)
+                else: 
+                    self.right.insert(data)
+        else:
+            self.data = data
+    #we need to create a function to print the nodes
+    def PrintTree(self):
+        if self.left:
+            self.left.PrintTree()
+        print(self.data)
+        if self.right:
+            self.right.PrintTree()
+#now let's add some numbers and display them
+BST = BinarySearchTree(18)
+BST.insert(6)
+BST.insert(15)
+BST.insert(11)
+BST.insert(3)
+BST.PrintTree()
+```
+````
+Output: 3 6 11 15 18
+````
+
+# Problem To Solve: Traverse forward in a BST
+Write a python code to traverse forward through a binary search tree and append all the nodes into an array.
+NOTE: There are different ways to solve this problem but te results should be similar.
+
+Check the [solution](3-solution.py) only after you have made an attempt to solve the problem on your own.
+
+[Back to Welcome Page](welcome.md)

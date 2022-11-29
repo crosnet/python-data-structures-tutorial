@@ -57,6 +57,8 @@ print(our_queue)
 print(f"New size:", len(our_queue))
 
 --------------------------------------------
+```
+```
 Output:
 Our new queue
 deque(['apple', 'banana', 'orange', 'pawpaw', 'mango'])
@@ -77,6 +79,6 @@ Your code should be able to do at least the following:
 - Display the size of the queue
 
 
-Chech the [solution](2-solution.py) only after you have made an attempt to solve the problem on your own.
+Check the [solution](2-solution.py) only after you have made an attempt to solve the problem on your own.
 
 [Back to Welcome Page](welcome.md)
