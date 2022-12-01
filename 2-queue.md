@@ -1,6 +1,8 @@
 # Queue
 
-When you want withdraw money at the ATM, you mostly meet a queue. The last person to join the queue is the last person to make a withdrawal. This is how queue works. Unlike stacks, queue uses the FIFO(First In, Last In) method to store items.
+When you want withdraw money at the ATM, you mostly meet a queue. The last person to join the queue is the last person to make a withdrawal. This is how queue works. Unlike stacks, queue uses the FIFO(First In, Last In) method to store items. An example of a queue is seen below.
+
+![python queue](queue.png)
 
 ## Implementation
 

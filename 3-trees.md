@@ -1,5 +1,8 @@
 # Tree
-Another type of the pyhon data stuctures is known us `Tree`. Yes tree. Consider a tree in real life; It has a root which is deep rooted in the soil. From this root, grows the stem, then the branches and leaves. In python, a tree is a type of data structure where items are arranged hierachically and connected through nodes. Every tree has a root node just like a normal tree has a root. And each node can have zero or more nodes connected to it by pointers. You can call these subnodes or the leaves. Trees are similar to linked lists which we will cover in another tutorial. 
+Another type of the pyhon data stuctures is known us `Tree`. Yes tree. Consider a tree in real life; It has a root which is deep rooted in the soil. From this root, grows the stem, then the branches and leaves. In python, a tree is a type of data structure where items are arranged hierachically and connected through nodes. Every tree has a root node just like a normal tree has a root. And each node can have zero or more nodes connected to it by pointers. You can call these subnodes or the leaves. Trees are similar to linked lists which we will cover in another tutorial.
+An example of a tree below.
+
+![python tree](tree.png)
 
  ## Types
  - Binary Tree: A binary tree is the type in which each node in the tree can have a maximum of only two subnodes. What this means is that, each node in the tree can only grow up t0 two branches(nodes). These branches are called the child nodes. 

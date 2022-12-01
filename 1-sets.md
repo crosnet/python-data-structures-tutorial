@@ -1,11 +1,13 @@
 # Sets
-In math or algebra, we have sets. Sets in math is used to different store values to perform calculations. The same applies to programming. In programming, there are four built-in data types for collecting and storing data in a variable.
+In math or algebra, we have sets. Sets in math is used to different store values to perform calculations. The same applies to programming. In programming, there are four built-in data structure for collecting and storing data in a variable. 
 - List
 - Dictionary
 - Tuple
 - Set
 
-A set is a data type that collects and stores data in a variable, It has unique features different from the other types. A set can be created by placing all the items into the curly brackets seperated by a comma. A `set()` constructor can also be used to create a set and append values into it.
+A set is a data structure that collects and stores data in a variable, It has unique features different from the other types. A set can be created by placing all the items into the curly brackets seperated by a comma. A `set()` constructor can also be used to create a set and append values into it. Below is an example of a python set from pynative.com.
+
+![python set](python-sets.jpg)
 
 - A set can contain different data types(boolean, strings, integers)
 - A set does not contain duplicate values: This feature allows us to create a set from a list without having to worry about duplicate values.  
