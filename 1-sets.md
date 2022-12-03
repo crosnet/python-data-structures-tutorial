@@ -5,7 +5,7 @@ In math or algebra, we have sets. Sets in math is used to different store values
 - Tuple
 - Set
 
-A set is a data structure that collects and stores data in a variable, It has unique features different from the other types. A set can be created by placing all the items into the curly brackets seperated by a comma. A `set()` constructor can also be used to create a set and append values into it. Below is an example of a python set from pynative.com.
+A set is a data structure that collects and stores data in a variable, It has unique features different from the other types. A set can be created by placing all the items into the curly brackets seperated by a comma. A `set()` constructor can also be used to create a set and append values into it. Below is an example of a python set from *pynative.com*.
 
 ![python set](python-sets.jpg)
 
@@ -63,6 +63,6 @@ Length: 5
 
 Write a python program to find all the even numbers in a list of integers and create a set with the found values. 
 
-Chech the [solution](1-solution.py) only after you have made an attempt to solve the problem on your own.
+Check the [solution](1-solution.py) only after you have made an attempt to solve the problem on your own.
 
 [Back to Welcome Page](welcome.md)

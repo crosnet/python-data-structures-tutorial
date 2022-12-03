@@ -1,7 +1,7 @@
 
-# Python Data Structures Fundamentals
+# Python Data Structures Tutorial
 
-Welcome to the Python Data Structures Fundamentals. In this turorial, We will be looking three of the common data stuctures in python.
+Welcome to the Python Data Structures Tutorial. In this turorial, We will be looking three of the common data stuctures in python.
 
 * [Set](1-sets.md)
 * [Queue](2-queue.md)
